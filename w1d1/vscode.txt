@@ -1,0 +1,5 @@
+VS Code - IDE (Integrated Development Environment)
+
+Code editor - like Microsoft Word for developers.
+
+Please - open folders instead of creating workspaces for now.
