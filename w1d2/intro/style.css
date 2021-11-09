@@ -1,0 +1,43 @@
+*{
+    background-color:white;
+}
+
+p{
+    font-family: cursive;
+}
+
+#special{
+    font-size:larger;
+}
+
+.bordered{
+    border: 3px dotted orangered;
+}
+
+.blackAndWhite{
+    background-color:rgb(78, 24, 114);
+    color: #bfeb23;
+}
+
+.bordered > li{
+    margin: 20px;
+}
+
+input[type="text"]{
+    height: 40px;
+    background-color: blueviolet;
+}
+
+#tester{
+    text-align: center;
+    text-decoration:underline;
+    font-style:oblique;
+    font-weight:100;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    background-color:coral;
+    width: 150px;
+    height: 500px;
+    padding-top: 30px;
+    margin: 5px;
+}
