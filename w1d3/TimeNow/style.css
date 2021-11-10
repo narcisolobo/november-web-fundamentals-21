@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flexed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.align-top {
+  align-items: flex-start;
+}
+
+.container {
+  background-color: blue;
+  width: 70%;
+  min-height: 500px;
+  margin: 0 auto;
+}
+
+/* DRY - Don't Repeat Yourself */
+
+.hero {
+  width: 50%;
+  min-height: 500px;
+}
+
+.hero-left {
+  background-color: yellow;
+  padding: 25px 50px;
+}
+
+
+.hero-right {
+  background-color: plum;
+}
+
+.testimonials {
+  background-color: green;
+  min-height: 200px;
+}
+
+.features {
+  background-color: aquamarine;
+  min-height: 200px;
+}
+
+.hero-left ul {
+  list-style: none;
+}
+
+footer {
+  background-color: darkmagenta;
+  min-height: 200px;
+}
