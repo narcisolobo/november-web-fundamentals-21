@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: lightslategray;
+}
+
+#header{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img{
+    height: 300px;
+}
+
+#albums{
+    display:flex;
+    /* horizontal alignment */
+    justify-content:space-around;
+    /* vertical alignment */
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    min-height: 75vh;
+}
+
+.album{
+    padding: 10px;
+    border: 2px solid black;
+    background-color: peru;
+    margin: 5px;
+}
