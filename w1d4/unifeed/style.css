@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Utility classes start */
+.container {
+  width: 900px;
+  min-height: 500px;
+  /* magic line to center stuff */
+  margin: 0 auto;
+}
+
+.flexed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.byline img {
+  width: 50px;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+/* Utility classes end */
+
+/* header rules start */
+header {
+  min-height: 50px;
+  padding: 20px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.nav {
+  list-style: none;
+}
+/* header rules stop */
+
+/* hero rules start */
+.hero {
+  min-height: 200px;
+  padding: 1.5em;
+}
+
+.hero-left {
+  flex: 2;
+}
+
+.hero-left img {
+  width: 100%;
+}
+
+.hero-right {
+  flex: 3;
+}
+
+.hero-right>h1,
+.hero-right>p {
+  margin-bottom: 1.5rem;
+}
+
+.byline {
+  min-height: 50px;
+}
+/* hero rules end */
+
+/* Features rules start */
+.features {
+  min-height: 300px;
+  padding: 1.5em;
+}
+
+.feature {
+  flex: 1;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+.feature>img,
+.feature>p,
+.feature h2 {
+  margin-bottom: 1.5rem;
+}
+
+/* Features rules end */
+
+/* Footer rules */
+footer {
+  min-height: 50px;
+  padding: 1.5em;
+}
+/* Footer rules */
