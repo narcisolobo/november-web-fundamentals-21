@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flexed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 1.5em;
+}
+
+header ul {
+  list-style: none;
+}
+
+main {
+  background-color: hotpink;
+  min-height: 400px;
+  flex: 2;
+}
+
+.card {
+  background-color: lightblue;
+  min-height: 300px;
+}
+
+.education {
+  background-color: darkcyan;
+  min-height: 300px;
+}
+
+aside {
+  background-color: orange;
+  min-height: 400px;
+  flex: 1;
+}
+
+.requests {
+  background-color: yellow;
+  min-height: 200px;
+}
+
+.connections {
+  background-color: yellowgreen;
+  min-height: 200px;
+}
