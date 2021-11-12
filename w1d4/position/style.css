@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1.5em;
+  margin-bottom: 1000px;
+}
+
+h1 {
+  color: green;
+}
+
+.relative {
+  position: relative;
+  background-color: aquamarine;
+  width: 300px;
+  min-height: 300px;
+  /* left, top, right, bottom */
+  top: 50px;
+  left: 50px;
+}
+
+h1, h2, h3, ul {
+  margin-bottom: 1.5em;
+}
+
+ul {
+  margin-left: 1.5em;
+}
+
+.box {
+  padding: 1.5em;
+}
+
+/* Position absolute is used most often with the pseudo selectors :before and :after */
+/* Also useful for breaking the plane of adjacent or parental elements */
+/* Rule of Thumb - an absolutely positioned element should have a relatively positioned parent */
+.absolute {
+  position: absolute;
+  background-color: cadetblue;
+  width: 100px;
+  min-height: 100px;
+  /* left, top, right, bottom */
+  bottom: 20px;
+  left: 240px;
+}
+
+.fixed {
+  position: fixed;
+  background-color: orangered;
+  width: 600px;
+  min-height: 100px;
+  /* left, top, right, bottom */
+  bottom: 0;
+}
+
+.sticky {
+  background-color: chocolate;
+  width: 100%;
+  min-height: 50px;
+  position: sticky;
+  top: 0;
+  padding: 1.5em;
+}
+
+.centered {
+  position: relative;
+  background-color: darkkhaki;
+  width: 300px;
+  min-height: 300px;
+  margin: 100px auto;
+}
+
+.circle {
+  background-color: darkgreen;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+}

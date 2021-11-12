@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Position</title>
+</head>
+<body>
+    <h1>Position</h1>
+    <h2>The position property - a property that allows us to position elements in ways that may not be in the document's usual code flow.</h2>
+    <header class="sticky"><h4>This is our stickied header.</h4></header>
+    <h3>DO NOT ABUSE POSITION!!</h3>
+    <ul>
+        <li>Static - Position: Static is the default value of position for every element.</li>
+        <li>Relative - The element is positioned relative to its normal position in the document's code flow.</li>
+        <li>Absolute - The element is positioned relative to its closest positioned ancestor.</li>
+        <li>Fixed - The element is positioned relative to the viewport.</li>
+        <li>Sticky - The element flips between relative and fixed until the user's coordinates are met.</li>
+    </ul>
+    <div class="box relative">
+        <p>Position Relative</p>
+        <div class="box absolute"><p>Position Absolute</p></div>
+    </div>
+    <div class="fixed box"></div>
+    <div class="centered">
+        <div class="circle"></div>
+    </div>
+</body>
+</html>
