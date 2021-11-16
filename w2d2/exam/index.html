@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GamingDojo</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <div class="container flexed">
+            <h1>Gaming<span class="purple-text">Dojo</span></h1>
+            <div class="header-right flexed">
+                <select>
+                    <option>Euro €</option>
+                </select>
+                <img src="./images/cart-light.png" alt="Shopping Cart">
+                <p id="cart-items"></p>
+                <img src="./images/search-light.png" alt="Search Icon">
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="banner">
+            <h2>Highlights</h2>
+            <div class="flexed">
+                <img id="left" onclick="backImage()" src="./images/chevron-left.png" alt="Left">
+                <img id="banner-image" src="./images/stonepunk.png" alt="Stone Punk">
+                <img id="right" onclick="nextImage()" src="./images/chevron-left.png" alt="Right">
+            </div>
+        </div>
+        <div class="markers flexed jc-center">
+            <div class="marker grey-bg"></div>
+            <div class="marker purple-bg"></div>
+            <div class="marker grey-bg"></div>
+            <div class="marker grey-bg"></div>
+        </div>
+        <div class="features flexed ai-flex-start">
+            <div class="feature">
+                <img class="feature-img" src="./images/cafe-neko.png" alt="Cafe Neko">
+                <div class="feature-copy">
+                    <p>Cafe Neko: <strong>Gold</strong> <em>Edition</em></p>
+                    <div class="os-icons">
+                        <img src="./images/windows.png" alt="Windows">
+                        <img src="./images/apple.png" alt="Apple">
+                    </div>
+                    <div class="flexed">
+                        <button class="btn purple-bg">-20%</button>
+                        <div class="prices">
+                            <p class="old-price">€14.98</p>
+                            <p>€10.49</p>
+                        </div>
+                        <button onclick="addItem()" class="btn green-bg">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="feature">
+                <img class="feature-img" src="./images/pixel-ninjas-2.png" alt="Pixel Ninjas 2">
+                <div class="feature-copy">
+                    <h3>Pixel Ninjas 2</h3>
+                    <div class="os-icons">
+                        <img src="./images/windows.png" alt="Windows">
+                        <img src="./images/apple.png" alt="Apple">
+                    </div>
+                    <div class="flexed">
+                        <button class="btn purple-bg">-10%</button>
+                        <div class="prices">
+                            <p class="old-price">€8.19</p>
+                            <p>€7.39</p>
+                        </div>
+                        <button onclick="addItem()" class="btn green-bg">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <div class="feature">
+                <img class="feature-img" src="./images/stonepunk.png" alt="Stone Punk">
+                <div class="feature-copy">
+                    <h3>Stonepunk 10000 BCE</h3>
+                    <div class="os-icons">
+                        <img src="./images/windows.png" alt="Windows">
+                        <img src="./images/apple.png" alt="Apple">
+                        <img onclick="linuxAlert()" src="./images/linux.png" alt="Linux">
+                    </div>
+                    <div class="flexed">
+                        <button class="btn purple-bg">-20%</button>
+                        <div class="prices">
+                            <p class="old-price">€14.98</p>
+                            <p>€10.49</p>
+                        </div>
+                        <button onclick="addItem()" class="btn green-bg">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

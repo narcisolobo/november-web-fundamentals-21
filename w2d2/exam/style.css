@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+/* utility styles */
+.flexed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.ai-flex-start {
+  align-items: flex-start;
+}
+
+.purple-text {
+  color: #9828ff;
+}
+
+.purple-bg {
+  background-color: #9828ff;
+}
+
+.grey-bg {
+  background-color: lightgray;
+}
+
+.green-bg {
+  background-color: #69a84f;
+}
+
+.jc-center {
+  justify-content: center;
+}
+/* utility styles */
+
+/* header styles */
+header {
+  background-color: black;
+  min-height: 50px;
+  padding: .5em 0;
+  border-top: 5px solid #9828ff;
+  margin-bottom: 1.5em;
+}
+
+header h1 {
+  color: white;
+}
+
+#cart-items{
+  color: white;
+}
+
+header img {
+  width: 40px;
+}
+/* header styles */
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* banner styles */
+.banner {
+  min-height: 300px;
+  margin: 0 auto;
+}
+
+#banner-image {
+  width: 700px;
+}
+
+#right {
+  transform: scaleX(-1);
+}
+/* banner styles */
+
+/* markers styles */
+.markers {
+  min-height: 50px;
+}
+
+.marker {
+  width: 100px;
+  height: 5px;
+}
+/* markers styles */
+
+/* features styles */
+.features {
+  min-height: 300px;
+}
+
+.feature {
+  flex: 1;
+  min-height: 100px;
+}
+
+.feature-img {
+  width: 100%;
+}
+
+.os-icons img {
+  width: 30px;
+}
+
+.feature-copy {
+  padding: 1.5em;
+  background-color: white;
+}
+
+.btn {
+  color: white;
+  padding: .5em 1em;
+  border: 0;
+  font-size: larger;
+  cursor: pointer;
+}
+/* features styles */
